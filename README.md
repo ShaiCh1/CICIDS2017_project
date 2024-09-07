@@ -19,12 +19,12 @@ Here’s how you can set up the environment and run the code:
 
 ### 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ShaiCh1/CICIDS2017_project.git
 ```
 
 ### 2. Navigate to the project folder:
 ```bash
-cd <project-directory>
+cd CICIDS2017_project
 ```
 
 ### 3. Install required libraries:
