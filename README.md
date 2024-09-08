@@ -166,7 +166,7 @@ Once the setup is done, follow these steps to run the scripts:
    - Both XGBoost and Random Forest achieved high accuracy (between **99.80% and 99.91%**). PCA slightly reduced accuracy, but the models still performed well, especially for classes with sufficient data.
 
 2. **Class Imbalance**:
-   - XGBoost and Random Forest handled the highly imbalanced data well, weighting the classes appropriately to ensure strong performance across the majority of classes. Class 1 (with limited data) showed reduced recall, but this is expected due to the small number of instances.
+   - XGBoost and Random Forest handled the highly imbalanced data well, weighting the classes appropriately to ensure strong performance across the majority of classes. Class 1 (Bot - with limited data) showed reduced recall, but this is expected due to the small number of instances.
 
 3. **Recommendation System (ANN Insight)**:
    - Using Approximate Nearest Neighbors (ANN), the recommendation system effectively distinguished between benign and attack traffic. The system achieved **99.31% accuracy** with PCA and **99.63% accuracy** without PCA. The shorter average distances for attack traffic indicate that attack patterns are more concentrated, making them easier to detect compared to benign traffic, which tends to be more spread out. The ANN model performed well despite the imbalanced data, showing high precision, recall, and F1-scores for identifying differences between benign and attack traffic.
@@ -186,4 +186,4 @@ In summary:
 Future work could focus on:
    - Fine-tuning the models to improve recall for rare classes, possibly through data augmentation or balancing techniques like SMOTE.
    - Exploring alternative distance metrics in the ANN algorithm to better differentiate benign and attack traffic.
-   - Investigating more advanced anomaly detection techniques to better capture rare attack types like those in class 1.
+   - Investigating more advanced anomaly detection techniques to better capture rare attack types like those in class 1 (Bot).
