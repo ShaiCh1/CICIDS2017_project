@@ -1,7 +1,7 @@
 # CICIDS2017 Data Analysis
 
 ## Objective
-In this project, I analyze the CICIDS2017 dataset to find meaningful insights using exploratory data analysis (EDA), machine learning (ML), and deep learning (DL) techniques. The project is part of an assignment for a Data Scientist role at Sleek.
+In this project, I analyze the CICIDS2017 dataset to find meaningful insights using exploratory data analysis (EDA), machine learning (ML), and deep learning (DL) techniques.
 
 ---
 
